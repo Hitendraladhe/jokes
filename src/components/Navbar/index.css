@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(32, 39, 72);
+    height: 2rem;
+    width: 100%;
+}
+
+.lgUl{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    list-style: none;
+    font-size: .6rem;
+    margin-right: 5rem;
+    color: #ffffff;
+}
+.headingNav{
+    color: #ffffff;
+    margin-right: auto;
+    font-size: .6rem;
+    margin-left: 0.5rem;
+}
+
+.smUl{
+    display: none;
+}
+
+.avatar{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: -5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.avtarBtn{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: none;
+    margin-right:2rem;
+    margin: .5rem;
+}
+.userUl{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: hidden;
+    margin-top: 7rem;
+    
+}
+.logOutBtn{
+    height: 1rem;
+    width: 4rem;
+    font-size: .5rem;
+    color: #ffffff;
+    border-radius: .3rem;
+    background-color: #ee7a2c;
+    border: none;
+}
+.userul{
+    list-style: none;
+    font-size: 1rem;
+    color: #ffffff;
+}
+.userul li{
+    font-size: 1rem;
+    color: black;
+}
+@media screen and (max-width: 700px) {
+    .lgUl{
+        margin: 13px;
+    }
+    .headingNav{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}

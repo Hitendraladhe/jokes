@@ -1,0 +1,58 @@
+
+.formContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height: 60vh;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 4rem;
+}
+.input{
+    width: 15rem;
+    height: 1.5rem;
+
+}
+h6{
+    text-align: center;
+    margin-top: -10px;
+}
+.Link{
+    margin-left: 10rem;
+}
+.form button{
+    width: 6rem;
+    height: 1.5rem;
+    background-color: rgb(223, 35, 129);
+    border: 1px goldenrod solid;
+    margin-top: 1rem;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .input{
+        width: 8rem;
+    }
+    .form{
+        height: 25vh;
+        margin-top: 0px;
+    }
+    .Link{
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+    h6{
+        margin-top: .5rem;
+        font-size: .5rem;
+    }
+}
